@@ -1,0 +1,15 @@
+[package]
+name = "smartpointers"
+version = "0.1.0"
+authors = ["camilojc <camilo@jcoder.io>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+box_example = { path = "./box_example" }
+rc_example = { path = "./rc_example" }
+refcell_example = { path = "./refcell_example" }
+
+[workspace]
+members = ["box_example", "rc_example", "refcell_example"]
