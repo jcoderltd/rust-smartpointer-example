@@ -7,11 +7,6 @@ struct Scene {
 impl Drawable for Scene {
     fn draw(&self) {
         println!("Boxed Scene");
-        // x : Drawable?
-        // dyn:
-        // 1) direccion objeto,
-        // 2) vtable (nombres metodo, direccion en memoria)
-        //    draw -> Square::draw
         self.objects.iter().for_each(|x| x.draw());
         println!("-------------");
     }
