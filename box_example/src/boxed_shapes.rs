@@ -32,7 +32,7 @@ pub fn boxed_example() {
 
     let mut scene2 = Scene::new();
     scene2.add_scene_object(Box::new(Square { size: 3.0 }));
-
+    
     scene1.draw();
     scene2.draw();
 }

@@ -8,3 +8,7 @@ tasks:
 vscode:
   extensions:
     - webfreak.debug@0.25.0:F9uLpAOde6r0l7rgMC8LTQ==
+    - belfz.search-crates-io@1.2.1:7JPZg656GbRsrWJeg+vvrw==
+    - bungcip.better-toml@0.3.2:bHWX++/U0u3IDNSrnlEAeA==
+    - vadimcn.vscode-lldb@1.5.3:vTh/rWhvJ5nQpeAVsD20QA==
+    - matklad.rust-analyzer@0.2.224:rWTrYQl9wsJzLAB8zZdFXw==
